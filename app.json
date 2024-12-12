@@ -7,24 +7,56 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "assetBundlePatterns": [
-      "**/*"
+      "*/"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.INTERNET",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ],
+      "package": "com.roberto_nicolas_0.proyecto_emprendedor",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAHbMwcBLWJWZnf5-qWdqYQZ_0K1v6p6SU"
+        }
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "La aplicación necesita acceso a tu galería de fotos para seleccionar imágenes.",
+          "cameraPermission": "La aplicación necesita acceso a tu cámara para tomar fotos."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "La aplicación necesita acceso a tu ubicacion."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "5e5eb849-8fbc-49f2-843f-8d1ad2303d5a"
+      }
     }
   }
 }
