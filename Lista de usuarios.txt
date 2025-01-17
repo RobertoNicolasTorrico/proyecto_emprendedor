@@ -1,0 +1,24 @@
+Usuario emprendedor
+Email: roberto.torrico@davinci.edu.ar	
+Contraseña :123456
+
+Email: nico_t27@hotmail.com	
+Contraseña :123456
+
+
+Email: nicolastorrico0@gmail.com	
+Contraseña :123456
+
+
+Usuario comun
+
+Email: roberto.nicolas.torrico@davinci.edu.ar	
+Contraseña :123456
+
+
+Email: roberto.torricooaa@davinci.edu.ar	
+Contraseña :123456
+
+Usuario administrador 
+Email: roberto.torrico@davinci.edu.ar	
+Contraseña :123456
